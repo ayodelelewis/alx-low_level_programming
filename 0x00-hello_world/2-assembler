@@ -1,2 +1,2 @@
-#1/bin/bash
+#!/bin/bash
 CFILE="main.c"; OUTPUT="${CFILE%.c}.s"; gcc -S $CFILE -o $OUTPUT
